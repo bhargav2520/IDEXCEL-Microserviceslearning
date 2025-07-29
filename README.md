@@ -1,4 +1,4 @@
-# IDEXCEL Microservices Learning Project
+# IDEXCEL Microservices Training
 
 ## Overview
 
