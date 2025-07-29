@@ -1,0 +1,59 @@
+server:
+  port: 9000
+spring:
+  application:
+    name: "cards"
+  profiles: # Note: Should be 'profiles' instead of 'profile'
+    active: "prod"
+  datasource:
+    url: jdbc:mysql://localhost:3308/cardsdb
+    username: root
+    password: root
+  jpa:
+    show-sql: true
+  sql:
+    init:
+      mode: always
+  config:
+    import: "optional:configserver:http://localhost:8071/"
+  rabbitmq:
+    host: "localhost"
+    port: 5672
+    username: "guest"
+    password: "guest"
+
+
+eureka:
+  instance:
+    preferIpAddress: true
+
+  client:
+    fetchRegistry: true
+    registerWithEureka: true
+    serviceUrl:
+      defaultZone: http://localhost:8070/eureka/
+
+info:
+  app:
+    name: "cards"
+    description: "eazy banks application"
+
+endpoints:
+  shutdown:
+    enabled: true
+
+build:
+  version: "3.0"
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+    endpoint:
+      shutdown:
+        enabled: true
+  info:
+    env:
+      enabled: true
+
+

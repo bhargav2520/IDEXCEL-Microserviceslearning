@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4096b258-1eb0-4bdc-9288-eabba53dabfa" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../accounts/src/main/java/com/example/accounts/Dto/CardsDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../accounts/src/main/java/com/example/accounts/Dto/CustomerDetailsDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../accounts/src/main/java/com/example/accounts/Dto/LoansDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../accounts/src/main/java/com/example/accounts/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../accounts/src/main/java/com/example/accounts/service/ICustomerservice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../accounts/src/main/java/com/example/accounts/service/client/CardsFeignClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../accounts/src/main/java/com/example/accounts/service/client/LoansFeignClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../accounts/src/main/java/com/example/accounts/service/impl/ICustomerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docker-compose/prod/common-config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docker-compose/prod/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docker-compose/qa/common-config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../docker-compose/qa/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../accounts/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../accounts/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../accounts/src/main/java/com/example/accounts/AccountsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../accounts/src/main/java/com/example/accounts/AccountsApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../accounts/src/main/java/com/example/accounts/Mapper/CustomerMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../accounts/src/main/java/com/example/accounts/Mapper/CustomerMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../accounts/src/main/java/com/example/accounts/ServiceImpl/AccountsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../accounts/src/main/java/com/example/accounts/ServiceImpl/AccountsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../accounts/src/main/java/com/example/accounts/controller/Acccountscontroller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../accounts/src/main/java/com/example/accounts/controller/Acccountscontroller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../accounts/src/main/java/com/example/accounts/service/IAccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../accounts/src/main/java/com/example/accounts/service/iAccountService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../accounts/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../accounts/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cards/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cards/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cards/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../cards/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../configserver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../configserver/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docker-compose/Default/common-config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../docker-compose/Default/common-config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docker-compose/Default/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../docker-compose/Default/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loans/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../loans/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loans/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../loans/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loans/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../loans/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loans/target/jib-cache/jib-classpath-file" beforeDir="false" afterPath="$PROJECT_DIR$/../loans/target/jib-cache/jib-classpath-file" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loans/target/jib-cache/layers/38dfa161e5f3fb87da8128397b8f3c3b977eb75695bec5aeb34c33a9cb5a23d0/59f7f43151737a32184160f15dc9710a769242b96205ba771c4736667d56dc97" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loans/target/jib-cache/layers/4adf5a822d92e2a6d2d0fd47e21d6b28ec2168fdf992e8b69ac3ce3879dc46ba/9eda7c5839e1cf34e134c2bf948b1d2a7abec7af5429a1ca512e84ad51670369" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loans/target/jib-cache/layers/62942fb1a9e2f986d224bf1755f360e20ef41bed77cd4be7ee59069dfea4e121/7ed251e962d3bb20c9291ea3acd63299842850495592eda8f8f833f776c760da" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loans/target/jib-cache/selectors/127cf360c967e575f74bcce5de4d27e0a9e7e6aef6c2dea8f19353facab1001a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loans/target/jib-cache/selectors/8ad9ae362fbd95e58f15965163853ec69f89de96011b07ccc9e02d824f5171b0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loans/target/jib-cache/selectors/9a9ed673f7a77fb9aaad826c85d90985d14dbcd2b84fd741a37c483130c6f4da" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loans/target/jib-cache/selectors/c39006190641e69789925a80a5b158b108a971c8d6a59d299bc0d5acc541b96a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loans/target/jib-image.digest" beforeDir="false" afterPath="$PROJECT_DIR$/../loans/target/jib-image.digest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loans/target/jib-image.id" beforeDir="false" afterPath="$PROJECT_DIR$/../loans/target/jib-image.id" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loans/target/jib-image.json" beforeDir="false" afterPath="$PROJECT_DIR$/../loans/target/jib-image.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loans/target/loans-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loans/target/loans-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loans/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loans/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../loans/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loans/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loans/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loans/target/surefire-reports/TEST-com.eazybytes.loans.LoansApplicationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loans/target/surefire-reports/com.eazybytes.loans.LoansApplicationTests.txt" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="2sYmX5R0PuhVLpdBVu1oxbt80wY" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.codeium.enabled": "true",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "/Users/gaddebhargav/Desktop/spring projects/section 8/spring sec 8/blogproject/src/Main.java"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4096b258-1eb0-4bdc-9288-eabba53dabfa" name="Changes" comment="" />
+      <created>1738640918346</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1738640918346</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
